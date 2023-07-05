@@ -11,10 +11,10 @@ streamlit.header('Breakfast Menu')
 streamlit.write('🥣 Omega 3 & Blueberry Oatmeal')
 streamlit.write('🥗 Kale, Spinach & Rocket Smoothie')
 streamlit.write('🐔 Hard-Bolied Free-Range Egg')
-streamlit.write('🥑🍞 Avacado Toast')
+streamlit.write('🥑🍞 Avocado Toast')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
-streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avacado','Strawberries'])
+streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
 
 streamlit.dataframe(my_fruit_list)
